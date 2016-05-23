@@ -31,7 +31,7 @@ public class Ventana_Principal extends JFrame {
 	 * Create the frame.
 	 */
 	public Ventana_Principal() {
-		for(int i=0;i<10000;i++) System.out.println("PESADOS DE MIERDA");
+		//for(int i=0;i<10000;i++) System.out.println("PESADOS DE MIERDA"); <<<< Aquí esta lo que me has modificado
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
